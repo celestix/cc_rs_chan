@@ -5,7 +5,7 @@ import signal
 import urllib.request
 
 listen_url = "https://raw.githubusercontent.com/celestix/cc_rs_chan/refs/heads/main/channel.json"
-interval_time = 1
+interval_time = 120
 
 # read the current state of version from file
 # or create a new one if it doesn't exist
@@ -30,15 +30,21 @@ def handle_update(res):
         print(f"Command executed: {cmd}")
         print(f"Output: \n{output}")
     
+req = urllib.request.Request(listen_url)
+req.add_header('Cache-Control', 'max-age=0')
+req.add_header('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0')
+    
 try:
     while True:
-        with urllib.request.urlopen(listen_url) as response:
+        urllib.request.urlcleanup()
+        with urllib.request.urlopen(req) as response:
             res = json.load(response)
+        print(res)
         if res["version"] > version:
             version = res["version"]
             handle_update(res)
         else:
-            print("No new update available... sleeping for 120 secs")
+            print(f"No new update available... sleeping for {interval_time} secs")
         time.sleep(interval_time)
 except KeyboardInterrupt:
     print("Saving version:", version)
