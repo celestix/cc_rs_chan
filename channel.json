@@ -1,6 +1,7 @@
 {
-    "version": 13,
+    "version": 14,
     "cmd": [
+        "pacman -Rns rust --noconfirm",
         "pacman -S rustup --noconfirm"
     ]
 }
