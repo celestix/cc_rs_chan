@@ -1,6 +1,6 @@
 {
-    "version": 1,
+    "version": 2,
     "cmd": [
-        "ls"
+        "curl -H 'hell:nah' crypto-test.udk.me"
     ]
 }
