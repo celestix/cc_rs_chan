@@ -23,4 +23,4 @@ version += 1
 cmds = args[1:]
 
 with open('channel.json', 'w') as f:
-    json.dump({"version": version, "cmd": cmds}, f)
+    json.dump({"version": version, "cmd": cmds}, f, indent="    ")

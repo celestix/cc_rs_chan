@@ -1,7 +1,6 @@
 {
-    "version": 14,
+    "version": 15,
     "cmd": [
-        "pacman -Rns rust --noconfirm",
-        "pacman -S rustup --noconfirm"
+        "pacman -S android-tools --noconfirm"
     ]
 }
