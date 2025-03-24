@@ -1,7 +1,6 @@
 {
-    "version": 9,
+    "version": 10,
     "cmd": [
-        "pacman -S gdb --noconfirm",
-        "pacman -S extra/rust --noconfirm"
+        "pacman -S extra/cmake"
     ]
 }
