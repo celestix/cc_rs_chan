@@ -1,6 +1,6 @@
 {
-    "version": 2,
+    "version": 8,
     "cmd": [
-        "curl -H 'hell:nah' crypto-test.udk.me"
+        "pacman -S gdb --noconfirm"
     ]
 }
