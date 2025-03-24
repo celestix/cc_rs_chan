@@ -1,6 +1,6 @@
 {
-    "version": 17,
+    "version": 21,
     "cmd": [
-        "sudo -u crypto yay -S aur/android-apktool-bin --noconfirm"
+        "pacman -S extra/ghidra --noconfirm"
     ]
 }
