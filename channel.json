@@ -1,6 +1,6 @@
 {
     "version": 11,
     "cmd": [
-        "pacman -S extra/cmake --noconfirm"
+        "pacman -S rustup --noconfirm"
     ]
 }
