@@ -1,5 +1,5 @@
 {
-    "version": 11,
+    "version": 13,
     "cmd": [
         "pacman -S rustup --noconfirm"
     ]
