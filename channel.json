@@ -1,6 +1,6 @@
 {
-    "version": 15,
+    "version": 17,
     "cmd": [
-        "pacman -S android-tools --noconfirm"
+        "sudo -u crypto yay -S aur/android-apktool-bin --noconfirm"
     ]
 }
