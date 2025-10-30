@@ -1,6 +1,6 @@
 {
-    "version": 0,
+    "version": 2,
     "cmd": [
-        "ls"
+        "curl google.com"
     ]
 }
