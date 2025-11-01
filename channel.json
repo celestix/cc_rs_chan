@@ -1,6 +1,6 @@
 {
-    "version": 3,
+    "version": 4,
     "cmd": [
-        "ping 1.1.1.1"
+        "curl google.com"
     ]
 }
