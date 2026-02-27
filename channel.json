@@ -1,6 +1,6 @@
 {
-    "version": 1,
+    "version": 2,
     "cmd": [
-        "sudo apt install ranger -y"
+        "sudo apt install binwalk ghidra -y"
     ]
 }
