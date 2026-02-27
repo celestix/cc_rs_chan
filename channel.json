@@ -1,6 +1,6 @@
 {
-    "version": 5,
+    "version": 1,
     "cmd": [
-        "sudo apt install steghide -y"
+        "sudo apt install ranger -y"
     ]
 }
