@@ -1,6 +1,6 @@
 {
-    "version": 3,
+    "version": 4,
     "cmd": [
-        "sudo apt install john pdf2john zip2john -y"
+        "sudo apt install john john-data ghidra -y"
     ]
 }
