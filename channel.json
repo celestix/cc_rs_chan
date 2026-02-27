@@ -1,6 +1,6 @@
 {
-    "version": 2,
+    "version": 3,
     "cmd": [
-        "sudo apt install binwalk ghidra -y"
+        "sudo apt install john pdf2john zip2john -y"
     ]
 }
